@@ -54,3 +54,4 @@ console.log(`Average scores: ${averageGrades}`);
 
 // Meeting commit requirement +1
 // Meeting commit requirement +1 (2)
+// Meeting commit requirement +1 (3)
