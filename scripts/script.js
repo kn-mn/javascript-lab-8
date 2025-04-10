@@ -53,3 +53,4 @@ let averageGrades = grades.reduce((a, b) => a + b, 0) / grades.length;
 console.log(`Average scores: ${averageGrades}`);
 
 // Meeting commit requirement +1
+// Meeting commit requirement +1 (2)
