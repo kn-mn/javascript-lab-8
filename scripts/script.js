@@ -48,6 +48,11 @@ student.totalCourses = function() {
     return this.courses.length;
 }
 
+console.log('total courses before:' + ' ' + student.totalCourses());
+student.addCourse('Art');
+console.log(student.courses);
+console.log('total courses after:' + ' ' + student.totalCourses());
+
 // Bonus
 let averageGrades = grades.reduce((a, b) => a + b, 0) / grades.length;
 console.log(`Average scores: ${averageGrades}`);
