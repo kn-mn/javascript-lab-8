@@ -28,3 +28,14 @@ let grades = [86, 92, 90, 88];
 let [first, second] = grades;
 console.log(first);
 console.log(second);
+
+// Part 4: The Spread Operator
+let copiedStudent = {...student};
+let modifiedStudent = {...copiedStudent, graduationYear: 2023};
+console.log(modifiedStudent);
+modifiedStudent.displayInfo();
+
+let combinedStudents = {...student, ...modifiedStudent};
+console.log(combinedStudents);
+combinedStudents.displayInfo();
+
