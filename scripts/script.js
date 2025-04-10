@@ -39,3 +39,11 @@ let combinedStudents = {...student, ...modifiedStudent};
 console.log(combinedStudents);
 combinedStudents.displayInfo();
 
+// Part 5: Object Methods
+student.addCourse = function(course) {
+    this.courses.push(course);
+}
+
+student.totalCourses = function() {
+    return this.courses.length;
+}
