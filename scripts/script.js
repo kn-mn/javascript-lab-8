@@ -47,3 +47,7 @@ student.addCourse = function(course) {
 student.totalCourses = function() {
     return this.courses.length;
 }
+
+// Bonus
+let averageGrades = grades.reduce((total, grade) => total + grade, 0) / grades.length;
+console.log(`Average scores: ${averageGrades}`);
