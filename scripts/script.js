@@ -20,3 +20,11 @@ let parsedStudent = JSON.parse(stringifyStudent);
 console.log(parsedStudent);
 
 // Part 3: Using Destructuring Assignment
+let {name, courses} = student;
+console.log(name);
+console.log(courses);
+
+let grades = [86, 92, 90, 88];
+let [first, second] = grades;
+console.log(first);
+console.log(second);
